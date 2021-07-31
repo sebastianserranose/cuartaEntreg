@@ -1,0 +1,140 @@
+/*Responsive*/
+
+@media (max-width: 576px) and (min-width:500px){
+    body{
+        background: darkcyan;
+    }
+    p{
+        font-size: 5px;
+    }
+    .imagen1{
+        width: 300px;
+ 	    height: 225px;
+        padding: 8px 120px 10px 150px;
+        margin: 2px 2px 3px 2px;
+
+
+    }
+    .header{
+        flex-direction: column;
+        justify-content: flex-start;
+        width: 100%;
+        
+    }
+    
+    .nav{
+        flex-direction: column;
+        justify-content: flex-start;
+        width: 100%;
+    }
+    .grid-item2 p{
+        font-size: 12px;
+    }
+    
+    .estiloTexto{
+        font-size: medium;
+    }
+    .grid-container{
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+    }
+    .estiloTexto{
+        text-indent: 1em;
+        font-family: serif;
+        font-size: 15px;
+        text-align: justify;
+    }
+
+    }
+    .flex-container div{
+        flex-direction: column;
+        justify-content: center;
+        width: 30%;
+        padding: auto;
+        margin: 0%;
+    }
+   
+    
+    form{
+        width: 100%;
+    }
+    .contenedor__cards{
+        margin: 20px 0;
+        margin: 10px 12px 20px 10px;
+        padding: 10px 12px 20px 10px;
+
+    }
+    .card__extracto{
+        flex-direction: column;
+        justify-content: center;
+        width: 20%;
+    }
+
+
+@media (max-width: 500px) and (min-width:991 px){
+    .header{
+        margin: 0 auto;
+    }
+    body{
+        background: darkcyan;
+    }
+    p{
+        font-size: 20px;
+    }
+    .imagen1{
+        width: 300px;
+ 	    height: 225px;
+        padding: 8px 120px 10px 160px;
+        margin: 2px 2px 3px 2px;
+
+
+    }
+    .header{
+        flex-direction: column;
+        justify-content: flex-start;
+        width: 100%;
+        
+    }
+    
+    .nav{
+        flex-direction: column;
+        justify-content: flex-start;
+        width: 100%;
+    }
+    .estiloTexto{
+        font-size: large;
+    }
+}
+@media (max-width: 992px){
+    .header{
+        margin: 0 auto;
+    }
+    body{
+        background: darkcyan;
+    }
+    p{
+        font-size: 20px;
+    }
+    .imagen1{
+        width: 300px;
+ 	    height: 225px;
+        padding: 8px 120px 10px 160px;
+        margin: 2px 2px 3px 2px;
+
+
+    }
+    .header{
+        flex-direction: column;
+        justify-content: flex-start;
+        width: 100%;
+        
+    }
+    
+    .nav{
+        flex-direction: column;
+        justify-content: flex-start;
+        width: 100%;
+    }
+
+}

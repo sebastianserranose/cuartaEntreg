@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Contacto</title>
+</head>
+<body>	
+	<header>
+		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+			<a class="navbar-brand" href="#">Ciencias sociales</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarNavDropdown">
+			<ul class="navbar-nav">
+				<li class="nav-item">
+				<a class="nav-link" href="Index.html">Inicio</a>
+				</li>
+				<li class="nav-item dropdown">
+				<a class="nav-link dropdown-toggle" href="modulos.html" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					Módulos
+				</a>
+				<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+					<a class="dropdown-item" href="moduloUno.html">Primer módulo</a>
+					<a class="dropdown-item" href="moduloDos.html">Segundo módulo</a>
+					<a class="dropdown-item" href="moduloTres.html">Tercer módulo</a>
+				</div>
+				</li>
+				<li class="nav-item">
+				<a class="nav-link" href="contacto.html">contacto</a>
+				</li>
+
+			</ul>
+			</div>
+		</nav>
+	</header>
+
+	 	<!--Fin de Menú de navegación-->
+
+	<h1>Contactanos</h1>
+	<h2>Deje aquí sus sugerencías y/o experiencia con esta ruta de aprendizaje</h2>
+	
+		<!--Inicio sugerencias-->
+	 	<section>
+	 		<form action="envia.php" method="POST" enctype="multipart/from-data" class="checkBoxx">
+	 				<label for="nombreyapellido" class="checkbox">Nombre y apellido</label><br>
+	 					<input type="text" name="nombreyapellido" maxlength="30" class="checkbox__input"><br>
+	 				<label for="password">Contraseña</label><br>
+	 					<input taype="password"><br>	
+	 	   
+	 			<form>
+	 				<label for="edad" class="chackbox" >Edad</label><br>
+		 				<select name="edad" class="checkbox__input">
+		 					<option value="0"></option>
+		 					<option value="15-17">15-18</option>
+		 					<option value="18-20">19-20</option>
+		 					<option value="20-25">21-25</option>
+		 					<option value="25omas">26 +</option>
+
+		 				</select>
+		 				<br>
+		 				<textarea>Deje su experiencia y/o sugerencia 
+		 				</textarea>
+		 				<br>	
+		 				<input type="submit" name="submit" value="Enviar">
+		 				<input type="reset" name="reset" value="Limpiar">
+		       </form>
+		   </form>
+		</section>
+		<br>
+		 <!--Fin sugerencias-->
+		 <footer>
+		 	<p>Este es una trabajo para el curso de desarrollo web</p>
+		 </footer>
+
+
+
+</body>
+</html>
